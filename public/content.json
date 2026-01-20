@@ -36,7 +36,12 @@
       "title": "Ethiojobs",
       "description": "A job portal built with Laravel.\nContributed as a DevOps Engineer and Backend Developer.",
       "url": "https://ethiojobs.net"
-    }
+    },
+    {
+      "title": "Terminal Portfolio",
+      "description": "A terminal-based portfolio built with Rust and Yew.\nIt is open-source and available on my GitHub.",
+      "url": "https://github.com/kalidyasin/kalidyasin.github.io"
+    },
   ],
   "contact": {
     "email": "kalidyasin29@gmail.com",
