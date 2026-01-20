@@ -1,0 +1,79 @@
+{
+  "welcome": "Welcome to my interactive terminal portfolio! Type 'help' to see available commands.",
+  "motd": "Tip: Use up/down arrows to navigate command history and Tab for completion.",
+  "about": "Hi, I'm a senior Software Engineer and DevOps Engineer with over four years of experience specializing in Laravel-based applications. Proven expertise in developing and managing Student Management Systems for universities and high schools, as well as creating an Inventory Management System. Strong background in DevOps, Docker, and Linux environments. Passionate about open-source contributions and optimizing software deployment processes.",
+  "skills": [
+    "C++",
+    "Django",
+    "Docker",
+    "Elasticsearch",
+    "Laravel",
+    "MySQL",
+    "PHP",
+    "PostgreSQL",
+    "Python",
+    "Rust",
+    "WebAssembly",
+    "Yew"
+  ],
+  "projects": [
+    {
+      "title": "Student Management System",
+      "description": "A student management system for Harambee University. Built with Laravel.\nIncluded features like student registration, course enrollment, and grade management.",
+      "url": "https://estudent.harambeeuniversity.edu.et"
+    },
+    {
+      "title": "School Management System",
+      "description": "A school management system for Kamara School. Built with Laravel and Livewire.\nIncluded features like student registration, course enrollment, and grade management.",
+      "url": "https://github.com/example/rust-game-engine"
+    },
+    {
+      "title": "Music Streaming App",
+      "description": "A music streaming app built with Express.js.\nContributed as a DevOps Engineer.",
+      "url": "https://github.com/example/rust-game-engine"
+    },
+    {
+      "title": "Ethiojobs",
+      "description": "A job portal built with Laravel.\nContributed as a DevOps Engineer and Backend Developer.",
+      "url": "https://ethiojobs.net"
+    }
+  ],
+  "contact": {
+    "email": "kalidyasin29@gmail.com",
+    "github": "https://github.com/kalidyasin",
+    "linkedin": "https://linkedin.com/in/kalidyasin",
+    "twitter": "https://twitter.com/khaluyasin"
+  },
+  "technologies": [
+    "Docker",
+    "Elasticsearch",
+    "Git",
+    "Layzgit",
+    "Linux",
+    "Neovim",
+    "Podman",
+    "Tmux",
+    "Vim"
+  ],
+  "work_experience": [
+    {
+      "company": "Daftech Social ICT Solutions",
+      "role": "Database Administrator",
+      "period": "2019 - 2020",
+      "description": "- Managed and maintained Oromia Transport Autority Database"
+    },
+    {
+      "company": "Hawi Software Solusions",
+      "role": "Senior Software Engineer and DevOps Engineer",
+      "period": "2021 - Present",
+      "description": "- Developed and maintained Laravel-based applications, including student and inventory management systems.\n- Led the development of a Student Management System for Harambee University and Kamara School.\n- Optimized CI/CD pipelines, managed Dockerized environments, and ensured efficient DevOps workflows.\n- Played a key role in a music streaming app as a DevOps Engineer, streamlining deployment and infrastructure."
+
+    },
+    {
+      "company": "Ethiojobs",
+      "role": "DevOps Engineer and Backend Developer",
+      "period": "2025 - Present",
+      "description": "- Developed and maintained Laravel-based applications, including ethiojobs.\n- Managed Dockerized environments, optimized CI/CD pipelines, and ensured efficient DevOps workflows.\n- Played a key role in a music streaming app as a DevOps Engineer, streamlining deployment and infrastructure."
+    }
+  ]
+}

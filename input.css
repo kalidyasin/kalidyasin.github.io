@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-tokyonight-bg text-tokyonight-fg font-mono;
+  }
+}
+
+a {
+  @apply text-tokyonight-blue hover:underline;
+}

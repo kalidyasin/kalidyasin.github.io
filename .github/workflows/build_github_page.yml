@@ -1,0 +1,42 @@
+name: Build and deploy github page
+
+on:
+  push:
+    branches: [ "main" ]
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    permissions:
+      pages: write
+      id-token: write
+
+    # environment:
+    #   name: github-pages
+    #   url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: set up trunk
+      uses: jetli/trunk-action@v0.5.0
+
+    - name: set up rust wasm target
+      run: rustup target add wasm32-unknown-unknown
+
+    - name: build page
+      run: trunk build --release
+
+    - name: upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: dist/
+
+    - name: deploy to github pages
+      id: deployment
+      uses: actions/deploy-pages@v4

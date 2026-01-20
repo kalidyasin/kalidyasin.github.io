@@ -1,0 +1,6 @@
+/target
+/dist
+node_modules
+*.log
+.trunk
+trunk_bin
